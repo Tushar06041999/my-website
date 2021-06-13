@@ -23,7 +23,8 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height:500px;
+    min-height:500px;
+    
 }
 .button{
     text-decoration:none;
@@ -37,6 +38,9 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#exp{
+    margin-top:150px;
 }
 .experience{
     box-shadow: 10px 10px 40px gray;
@@ -52,13 +56,15 @@ section{
     border-left:7px solid;
     border-image:linear-gradient(180deg,lightsalmon,tomato);
     border-image-slice:1;
+    overflow: scroll;
 }
 #last1{
     border-left:7px solid;
     border-image:linear-gradient(180deg,blue,cyan);
     border-image-slice:1;
+    overflow:scroll;
 
 }
 #footer {
-    text-align:right;
+    text-align:center;
 }
